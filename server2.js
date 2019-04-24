@@ -6,7 +6,7 @@ server.on( 'request', function(req,res) {
     res.write('<!DOCTYPE html>');
     res.write('<html lang=ja>');
     res.write('<body>');
-    res.write('<h1>Hello world</h1>');
+    res.write('<h1>You are do it!</h1>');
     res.write('</body>');
     res.write('</html>');
     res.end();
